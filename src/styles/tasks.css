@@ -1,0 +1,62 @@
+.tasksContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addCont{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #44a1ff, #3a87d6);
+    padding: 2vh;
+    width: 35vw;
+    height:fit-content;
+}
+
+.addCont h4{
+    margin: 0 0 2vh 0;
+}
+
+#addInput{
+    border: none;
+    font-size: 2.5vh;
+    border-radius: 15px;
+    margin-bottom: 1vh;
+}
+#addSelect{
+    border: none;
+    font-size: 2.5vh;
+    border-radius: 15px;
+}
+
+#addBtn{
+    margin-top: 2vh;
+}
+
+#list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 1vw;
+    width: 100vw;
+}
+
+.taskCont{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0 0 0;
+    padding: 2vh;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: rgb(127, 168, 255);
+}
+.task-title{
+    background-color: white;
+    border-radius: 15px;
+    padding: 1px 5px;
+    margin: 0 0 1vh 0;
+    height: 40%;
+}
+.task-category{
+    margin: 0 0 1vh 0;
+}
